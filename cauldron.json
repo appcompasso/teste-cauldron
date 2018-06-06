@@ -12,14 +12,31 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "/Users/guilherme.merten/Merten/ElectrodeNativeTutorial/MovieListMiniApp"
+                ],
+                "nativeDeps": [
+                  "react-native-ernmovie-api@0.0.10",
+                  "react-native-ernnavigation-api@0.0.4",
+                  "react-native-ernmovie-api-impl@0.0.11",
+                  "react-native-electrode-bridge@1.5.15",
+                  "react-native@0.55.4"
+                ],
+                "ernVersion": "0.19.0"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "6913915614e6f4c06fc84433e96837c8abddf6e4"
+              },
+              "containerVersion": "1.0.0"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0"
+            }
+          }
         }
       ]
     }
